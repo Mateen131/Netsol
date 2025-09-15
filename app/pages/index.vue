@@ -1,14 +1,12 @@
 <template>
-  <div>
-
-<Header />
+    <div>
+    <Header />
     <Banner />
+     <TechnologyPartner />
     <Carousel />
     <Footer />
-
-  </div>
+    </div>
+    
 </template>
-
-
 
 
