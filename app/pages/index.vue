@@ -1,17 +1,12 @@
 <template>
-  <div>
-
-
-    <!-- Use imported component -->
-<Header />
+    <div>
+    <Header />
     <Banner />
+     <TechnologyPartner />
     <Carousel />
+    <Connectwithus />
     <Footer />
-   
-
   </div>
 </template>
-
-
 
 
