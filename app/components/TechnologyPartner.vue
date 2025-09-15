@@ -1,15 +1,15 @@
 <template>
 
 <section class="bg-gray-50 py-16 ml-16 mr-16">
-    <div class="max-w-17xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center px-6 ">
+    <div class="w-full flex mx-auto gap-12 items-center px-6">
       
       <!-- Left: Car Image -->
-      <div class="flex justify-center">
-        <NuxtImg src="/images/TechImages/car1.png"></NuxtImg>
+      <div class="justify-center w-80%]">
+        <NuxtImg src="/images/TechImages/car1.png" width="500px" height="1000px"></NuxtImg>
       </div>
 
       <!-- Right: Text Content -->
-      <div>
+     <div class="w-[80%] text-left">
         <!-- Heading -->
         <h2 class="text-3xl md:text-4xl  text-gray-800 leading-snug ff-elephent font-qualy">
           Technology Partner to the 
