@@ -1,9 +1,5 @@
 <script setup>
 import { ref } from "vue"
-import logo from '~/assets/images/logo.png'
-import usaFlag from '~/assets/images/usa-flag.png'
-
-
 
 // Dropdown state
 const openMenu = ref(null)
@@ -18,7 +14,7 @@ const toggleMenu = (menu) => {
       <div class="max-w-7xl mx-auto flex justify-between items-center py-4 px-6">
         <!-- Logo -->
         <div class="flex items-center space-x-2">
-          <img :src="logo" alt="NETSOL Logo" class="h-8" />
+          <NuxtImg src="/images/Header/logo.png" class="h-8"></NuxtImg> 
           <span class="font-bold text-xl text-gray-800">NETSOL</span>
         </div>
 
@@ -107,7 +103,7 @@ const toggleMenu = (menu) => {
 
         <!-- Language Selector -->
         <div>
-          <img :src="usaFlag" alt="USA Flag" class="h-6 w-6 rounded-full border border-gray-400" />
+          <NuxtImg src="/images/Header/usa-flag.png" class="h-6 w-6 rounded-full border border-gray-400"></NuxtImg> 
         </div>
       </div>
     </header>

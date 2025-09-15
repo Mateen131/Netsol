@@ -1,6 +1,6 @@
 <template>
     <section class="relative py-16 sm:px-6 lg:py-24 lg:px-8 mt-0 bg-cover bg-center bg-no-repeat overflow-hidden h-auto"
-        style="background-image: url('/bg.png'); ">
+        style="background-image: url('/images/Slider/bg.png'); ">
         <div class="absolute inset-0 z-0 w-full">
             <div class="h-full w-full opacity-30 absolute inset-0"></div>
             <div class="h-full w-full opacity-5">
@@ -79,21 +79,21 @@
             quote: "At MINI, we decided it was time to create an end-to-end purchasing and finance journey for the consumer and it was important to create something more than a lead generator to facilitate the complete transaction for any MINI customer, any place, any time. Our partnership with NETSOL has enabled us not only to catch up with industry leaders, but also to set new benchmarks in digital auto-retail, which the usual suspects in the industry could not provide.",
             author: "Mike Peyton",
             title: "Chief Motorer and Vice-President of MINI of the Americas",
-            image: "/pic.png",
+            image: "/Images/Slider/pic.png",
         },
         {
 
             quote: "We are pleased to be working with NETSOL as our strategic platform partner. NETSOL’s smart technology solutions are well-recognized in the finance and leasing space and deploying Transcend Finance (Formerly known as Ascent) enables us to maintain a competitive edge in today’s highly dynamic marketplace. With its powerful configuration engines, Ascent will streamline our processes, enabling faster on-boarding of new partners and speed up new product introductions across markets.",
             author: "Henrik Staulund",
             title: "Chief Commercial Officer at Ikano Bank",
-            image: "/henrik.png",
+            image: "/Images/Slider/henrik.png",
         },
         {
             heading: "Haydock Financial Finds Success with NETSOL's Marketplace",
             quote: "I'd absolutely recommend both Appex Now and NETSOL. The products are brilliant. It works fantastically well. And, NETSOL has been responsive to our needs. Quickly made any changes that we required.",
             author: "Mike Boyes",
             title: "Head of Vendor, Haydock Finance",
-            image: "/mike_boyes.webp",
+            image: "/Images/Slider/mike_boyes.webp",
         },
 
     ];
