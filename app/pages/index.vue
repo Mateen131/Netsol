@@ -2,6 +2,7 @@
     <div>
     <Header />
     <Banner />
+    <Serve />
      <TechnologyPartner />
     <Carousel />
     <Footer />

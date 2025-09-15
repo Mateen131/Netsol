@@ -6,8 +6,8 @@ import car1 from '~/assets/images/car1.png'
 </script>
 <template>
 
-<section class="bg-gray-50 py-16">
-    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center px-6">
+<section class="bg-gray-50 py-16 ml-16 mr-16">
+    <div class="max-w-17xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center px-6 ">
       
       <!-- Left: Car Image -->
       <div class="flex justify-center">
@@ -17,13 +17,13 @@ import car1 from '~/assets/images/car1.png'
       <!-- Right: Text Content -->
       <div>
         <!-- Heading -->
-        <h2 class="text-3xl md:text-4xl font-bold text-gray-800 leading-snug ff-elephent">
+        <h2 class="text-3xl md:text-4xl  text-gray-800 leading-snug ff-elephent font-qualy">
           Technology Partner to the 
-          <span class="text-blue-600">World’s Leading Brands</span>
+          <span class="text-blue-600 font-qualy">World’s Leading Brands</span>
         </h2>
 
         <!-- Paragraphs -->
-        <p class="mt-6 text-gray-600 leading-relaxed">
+        <p class="mt-6 text-gray-600 leading-relaxed ">
           NETSOL Technologies builds AI-powered ecosystems that make finance, commerce, retail and servicing seamless for 
           OEMs, captives, banks, independent finance companies, dealers, and fleets, empowering consumers to buy, fund, use, 
           service, and renew assets with trust and transparency.

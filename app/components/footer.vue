@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from "vue"
 import logo from '~/assets/images/logo.png'
+import logo1 from '~/assets/images/logo1.png'
 
 </script>
 
@@ -13,7 +14,7 @@ import logo from '~/assets/images/logo.png'
         <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
           <!-- Logo + About -->
           <div class="space-y-3">
-            <div class="flex items-center space-x-2">
+            <div class="flex items-center space-x-2 ">
               <img :src="logo" alt="NETSOL Logo" class="h-8" />
               <span class="font-bold text-xl text-white">NETSOL</span>
             </div>
