@@ -7,6 +7,7 @@
     <Banner />
     <Carousel />
     <Footer />
+   
 
   </div>
 </template>
