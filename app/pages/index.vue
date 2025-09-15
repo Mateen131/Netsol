@@ -2,7 +2,7 @@
     <div>
     <Header />
     <Banner />
-     <TechnologyPartner />
+    <TechnologyPartner />
     <Carousel />
     <Connectwithus />
     <Footer />

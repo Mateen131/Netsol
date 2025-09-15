@@ -1,8 +1,4 @@
-<script setup>
-import { ref } from "vue"
-import logo from '~/assets/images/logo.png'
 
-</script>
 
 <template>
 <!-- ===== Footer Section ===== -->
@@ -14,7 +10,7 @@ import logo from '~/assets/images/logo.png'
           <!-- Logo + About -->
           <div class="space-y-3">
             <div class="flex items-center space-x-2">
-              <img :src="logo" alt="NETSOL Logo" class="h-8" />
+              <NuxtImg src="/images/TechImages/logo.png" alt="Logo" width="50" height="50"></NuxtImg>
               <span class="font-bold text-xl text-white">NETSOL</span>
             </div>
             <ul class="space-y-2">
