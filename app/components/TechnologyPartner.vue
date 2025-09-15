@@ -1,9 +1,3 @@
-
-<script setup>
-import { ref } from "vue"
-import car1 from '~/assets/images/car1.png'
-
-</script>
 <template>
 
 <section class="bg-gray-50 py-16 ml-16 mr-16">
@@ -11,7 +5,7 @@ import car1 from '~/assets/images/car1.png'
       
       <!-- Left: Car Image -->
       <div class="flex justify-center">
-        <img :src="car1" alt="Car1" class="max-h-[500px] object-contain" />
+        <NuxtImg src="/images/TechImages/car1.png"></NuxtImg>
       </div>
 
       <!-- Right: Text Content -->
