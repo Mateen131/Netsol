@@ -9,9 +9,9 @@
     
 
     <Carousel />
+    <Connectwithus />
     <Footer />
-    </div>
-    
+  </div>
 </template>
 
 
