@@ -2,13 +2,13 @@
   <div>
 
     <!-- Use imported component -->
-    <Slider />
+<Header />
+<Banner />
+    <Carousel />
+    <Footer />
   </div>
 </template>
 
-<script setup>
-import Slider from '~/components/carousel.vue'
-</script>
 
 
 
