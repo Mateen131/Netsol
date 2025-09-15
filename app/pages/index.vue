@@ -1,7 +1,14 @@
 <template>
   <div>
-    <Header />
+
+<Header />
     <Banner />
+    <Carousel />
     <Footer />
+
   </div>
 </template>
+
+
+
+
