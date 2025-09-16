@@ -1,8 +1,6 @@
-
-
 <template>
-<!-- ===== Footer Section ===== -->
- <div>
+  <!-- ===== Footer Section ===== -->
+  <div>
     <footer class="bg-gray-900 text-gray-300 mt-16">
       <div class="max-w-7xl mx-auto px-6 py-12 space-y-10">
         <!-- First Row -->

@@ -4,6 +4,7 @@
     <Banner />
     <TechnologyPartner />
     <Carousel />
+    <Cards />
     <Connectwithus />
     <Footer />
   </div>
