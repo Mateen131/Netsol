@@ -9,20 +9,20 @@
       The World's Leading Brands are Powered by NETSOL
     </h3>
 
-    <div class="w-full overflow-hidden whitespace-nowrap ml-20">
+    <div class="w-full overflow-hidden whitespace-nowrap ">
       <div class="flex flex-nowrap">
         <!-- Logos -->
-        <div
-          v-for="(logo, index) in logos"
-          :key="index"
-          class="client_logo_container flex-shrink-0 mx-6 w-25 md:w-32 h-15 md:h-20 flex items-center justify-center bg-white border border-gray-200 rounded-5 shadow-sm p-2"
-        >
-          <NuxtImg
-            :src="`/images/Techimages/${logo}`"
-            :alt="`Logo ${index}`"
-            class="w-25 h-20 md:h-8 sm:h-6 object-contain"
-          />
-        </div>
+     <div
+  v-for="(logo, index) in logos"
+  :key="index"
+  class="client_logo_container flex-shrink-0 mx-6 w-32 md:w-36 h-20 md:h-24 flex items-center justify-center bg-white border border-gray-200 rounded-5 shadow-sm p-2"
+>
+  <NuxtImg
+    :src="`/images/Techimages/${logo}`"
+    :alt="`Logo ${index}`"
+    class="w-28 h-16 md:w-32 md:h-20 object-contain"
+  />
+</div>
       </div>
     </div>
   </div>
