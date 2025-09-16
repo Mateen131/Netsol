@@ -4,10 +4,7 @@
     <Banner />
     <Brands />
     <Serve />
-     <TechnologyPartner />
-
-    
-
+    <TechnologyPartner />
     <Carousel />
     <Cards />
     <Connectwithus />
