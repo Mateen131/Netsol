@@ -2,7 +2,12 @@
     <div>
     <Header />
     <Banner />
-    <TechnologyPartner />
+    <Brands />
+    <Serve />
+     <TechnologyPartner />
+
+    
+
     <Carousel />
     <Cards />
     <Connectwithus />

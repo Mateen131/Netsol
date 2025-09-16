@@ -1,23 +1,23 @@
 <template>
 
-<section class="bg-gray-50 py-16">
-    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center px-6">
+<section class="bg-gray-50  ml-16 mr-16 py-7">
+    <div class="w-full flex gap-12 items-center ">
       
       <!-- Left: Car Image -->
-      <div class="flex justify-center">
-        <NuxtImg src="/images/TechImages/car1.png"></NuxtImg>
+      <div class="justify-center w-[40%] h-[60%] ">
+        <NuxtImg src="/images/TechImages/car1.png" ></NuxtImg>
       </div>
 
       <!-- Right: Text Content -->
-      <div>
+     <div class="w-[80%] h-[60%] text-left  ">
         <!-- Heading -->
-        <h2 class="text-3xl md:text-4xl font-bold text-gray-800 leading-snug ff-elephent">
+        <h2 class="text-3xl md:text-4xl  text-gray-800 leading-snug ff-elephent font-qualy">
           Technology Partner to the 
-          <span class="text-blue-600">World’s Leading Brands</span>
+          <span class="text-blue-600 font-qualy">World’s Leading Brands</span>
         </h2>
 
         <!-- Paragraphs -->
-        <p class="mt-6 text-gray-600 leading-relaxed">
+        <p class="mt-6 text-gray-600 leading-relaxed ">
           NETSOL Technologies builds AI-powered ecosystems that make finance, commerce, retail and servicing seamless for 
           OEMs, captives, banks, independent finance companies, dealers, and fleets, empowering consumers to buy, fund, use, 
           service, and renew assets with trust and transparency.
@@ -31,19 +31,19 @@
 
         <!-- Stats Section -->
         <div class="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4">
-          <div class="bg-white shadow-sm rounded-lg p-6 text-center">
+          <div class="bg-gray-100 shadow-sm rounded-lg p-6 text-center">
             <p class="text-2xl font-bold text-gray-900">200+</p>
             <p class="mt-2 text-gray-600 text-sm">Customers Worldwide</p>
           </div>
-          <div class="bg-white shadow-sm rounded-lg p-6 text-center">
+          <div class="bg-gray-100 shadow-sm rounded-lg p-6 text-center">
             <p class="text-2xl font-bold text-gray-900">300+</p>
             <p class="mt-2 text-gray-600 text-sm">Successful Implementations</p>
           </div>
-          <div class="bg-white shadow-sm rounded-lg p-6 text-center">
+          <div class="bg-gray-100 shadow-sm rounded-lg p-6 text-center">
             <p class="text-2xl font-bold text-gray-900">$500B+</p>
             <p class="mt-2 text-gray-600 text-sm">Assets Managed Globally</p>
           </div>
-          <div class="bg-white shadow-sm rounded-lg p-6 text-center">
+          <div class="bg-gray-100 shadow-sm rounded-lg p-6 text-center">
             <p class="text-2xl font-bold text-gray-900">25+</p>
             <p class="mt-2 text-gray-600 text-sm">Years on NASDAQ: NTWK</p>
           </div>

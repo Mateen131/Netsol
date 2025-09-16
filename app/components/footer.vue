@@ -1,3 +1,4 @@
+
 <template>
   <!-- ===== Footer Section ===== -->
   <div>
@@ -7,8 +8,12 @@
         <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
           <!-- Logo + About -->
           <div class="space-y-3">
+
+          
+
             <div class="flex items-center space-x-2">
               <NuxtImg src="/images/TechImages/logo.png" alt="Logo" width="50" height="50"></NuxtImg>
+ 
               <span class="font-bold text-xl text-white">NETSOL</span>
             </div>
             <ul class="space-y-2">
