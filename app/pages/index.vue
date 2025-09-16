@@ -2,7 +2,7 @@
     <div>
     <Header />
     <Banner />
-
+   
     <Serve />
      <TechnologyPartner />
 

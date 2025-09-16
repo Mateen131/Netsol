@@ -44,8 +44,8 @@ defineProps({
       </p>
 
       <!-- Cards -->
-      <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div v-for="(item, index) in items" :key="index" class="p-6 bg-white shadow-md rounded-lg border border-gray-100 hover:shadow-lg transition">
+      <div class="mt-12 grid grid-cols-1 md:grid-cols-3 ">
+        <div v-for="(item, index) in items" :key="index" class="p-6 bg-white  rounded-lg border border-gray-100 border-y-[1px] transition divide-opacity-100">
           <div class="text-4xl text-blue-600 mb-4">
             {{ item.icon }}
           </div>
@@ -63,11 +63,15 @@ defineProps({
           class="inline-flex items-center px-6 py-3 bg-blue-600 text-white font-medium rounded-lg shadow hover:bg-blue-700 transition"
         >
           Connect with us
-          <svg xmlns="http://www.w3.org/2000/svg" class="ml-2 h-5 w-5" fill="none"
-            viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              d="M17 8l4 4m0 0l-4 4m4-4H3" />
-          </svg>
+          
+          <svg xmlns="http://www.w3.org/2000/svg"
+           class="w-4 h-8 text-white"
+           fill="none"
+           viewBox="0 0 24 24"
+           stroke="currentColor"
+           stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M17 7H7m10 0v10M17 7L7 17"/>
+      </svg>
         </a>
       </div>
     </div>

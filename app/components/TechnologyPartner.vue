@@ -1,15 +1,15 @@
 <template>
 
-<section class="bg-gray-50 py-16 ml-16 mr-16">
-    <div class="w-full flex mx-auto gap-12 items-center px-6">
+<section class="bg-gray-50  ml-16 mr-16 py-7">
+    <div class="w-full flex gap-12 items-center ">
       
       <!-- Left: Car Image -->
-      <div class="justify-center w-80%]">
-        <NuxtImg src="/images/TechImages/car1.png" width="500px" height="1000px"></NuxtImg>
+      <div class="justify-center w-[40%] h-[60%] ">
+        <NuxtImg src="/images/TechImages/car1.png" ></NuxtImg>
       </div>
 
       <!-- Right: Text Content -->
-     <div class="w-[80%] text-left">
+     <div class="w-[80%] h-[60%] text-left  ">
         <!-- Heading -->
         <h2 class="text-3xl md:text-4xl  text-gray-800 leading-snug ff-elephent font-qualy">
           Technology Partner to the 
@@ -31,19 +31,19 @@
 
         <!-- Stats Section -->
         <div class="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4">
-          <div class="bg-white shadow-sm rounded-lg p-6 text-center">
+          <div class="bg-gray-100 shadow-sm rounded-lg p-6 text-center">
             <p class="text-2xl font-bold text-gray-900">200+</p>
             <p class="mt-2 text-gray-600 text-sm">Customers Worldwide</p>
           </div>
-          <div class="bg-white shadow-sm rounded-lg p-6 text-center">
+          <div class="bg-gray-100 shadow-sm rounded-lg p-6 text-center">
             <p class="text-2xl font-bold text-gray-900">300+</p>
             <p class="mt-2 text-gray-600 text-sm">Successful Implementations</p>
           </div>
-          <div class="bg-white shadow-sm rounded-lg p-6 text-center">
+          <div class="bg-gray-100 shadow-sm rounded-lg p-6 text-center">
             <p class="text-2xl font-bold text-gray-900">$500B+</p>
             <p class="mt-2 text-gray-600 text-sm">Assets Managed Globally</p>
           </div>
-          <div class="bg-white shadow-sm rounded-lg p-6 text-center">
+          <div class="bg-gray-100 shadow-sm rounded-lg p-6 text-center">
             <p class="text-2xl font-bold text-gray-900">25+</p>
             <p class="mt-2 text-gray-600 text-sm">Years on NASDAQ: NTWK</p>
           </div>
