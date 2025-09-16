@@ -32,7 +32,7 @@ defineProps({
 </script>
 
 <template>
-  <section class="bg-white py-16">
+  <section class="bg-white py-16 ml-[78px] mr-[66px]">
     <div class="max-w-7xl mx-auto text-center px-6 ">
       <!-- Title -->
       <h2 class="text-3xl md:text-4xl  text-gray-800 font-qualy">
