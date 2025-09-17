@@ -10,6 +10,7 @@
 
     <Carousel />
     <Connectwithus />
+    <Subscribe />
     <Footer />
   </div>
 </template>
