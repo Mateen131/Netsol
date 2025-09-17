@@ -1,13 +1,13 @@
 <template>
-  <section class="w-full bg-white border-b">
+  <section class="w-full bg-white border-b ml-11">
     <div class="max-w-7xl mx-auto px-6">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center py-12 md:py-16">
 
         <div class="space-y-4">
           <p class="text-sm tracking-wider text-gray-500 uppercase">Connect Sales</p>
 
-          <h1 class="text-3xl md:text-4xl font-extrabold leading-tight">
-            Explore <span class="text-blue-600">NETSOL</span><span class="block md:inline"> Technologies</span>
+          <h1 class="text-3xl md:text-4xl font-qualy leading-tight">
+            Explore <span class="text-blue-600 ">NETSOL</span><span class="block md:inline"> Technologies</span>
           </h1>
 
           <p class="text-gray-600 max-w-lg">
@@ -21,9 +21,9 @@
           </NuxtLink>
         </div>
 
-        <div class="flex justify-center md:justify-end">
+        <div class="flex justify-center md:justify-end mr-20">
 
-          <NuxtImg src="/images/Banner/netsol.png" alt="NETSOL" />
+          <NuxtImg src="/images/Banner/broker.png" alt="NETSOL" />
         </div>
 
       </div>
