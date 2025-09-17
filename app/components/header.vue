@@ -113,9 +113,10 @@ function toggleDropdown(name) {
               </button>
             </div>
 
-            <div class="flex items-center">
-              <NuxtImg src="/images/Header/usa-flag.png" alt="Flag"
-                class="w-9 h-9 rounded-full border-2 object-scale-down border-gray-400 ml-[110px]" />
+            <div class="flex items-center w-[148px]">
+                    <NuxtImg src="/images/Header/usa-flag.png" alt="Flag"
+                class="w-9 h-9 rounded-full border-2 object-scale-down border-gray-400 ml-auto" />
+              
             </div>
 
 

@@ -5,36 +5,35 @@ const cards = [
         imageSrc: '/images/Card/Card5.png',
         tag: 'Blog',
         title: 'Reducing Manual Work in Asset Finance: Where to…',
-        excerpt: 'Understand the real operational cost of outdated systems—and how to prioritize upgrades for ROI.',
+        excerpt: 'Understand the real operational cost of outdated systems—and how to...',
 
     },
     {
         imageSrc: '/images/Card/Card1.png',
         tag: 'Webinar',
         title: 'Decoding AI Trends | Transcend AI Labs Podcast',
-        excerpt: 'Join us for the Transcend AI Labs Podcast as we dive into the latest AI innovations and use-cases.',
+        excerpt: 'Join us for the Transcend AI Labs Podcast as we dive into the latest...',
         isMedia: true
     },
     {
         imageSrc: '/images/Card/Card2.png',
         tag: 'Whitepaper',
-        title: 'The AI Transformation Playbook for Auto Captives',
-        excerpt: 'Explore key strategies for OEM finance arms to adopt AI across the credit lifecycle.',
+        title: 'The AI Transformation Playbook for Auto',
+        excerpt: 'Explore key strategies for OEM finance arms to adopt AI across the...',
 
     },
     {
         imageSrc: '/images/Card/Card3.png',
         tag: 'Blog',
-        title: 'How the Right Digital Retail Stack Can Future-proof Sales',
-        excerpt: 'The auto industry is facing a multitude of challenges and opportunities — here’s a practical roadmap.',
+        title: 'How the Right Digital Retail Stack Can Future-',
+        excerpt: 'The auto industry is facing a multitude of challenges and...',
 
     }
 ]
 </script>
-
 <template>
-    <section class=" py-10">
-        <div class="max-w-7xl mx-auto px-8 ">
+    <section class="py-10">
+        <div class="max-w-7xl ml-16 mr-16 px-8 ">
             <h2 class="text-3xl md:text-4xl font-bold text-gray-800 leading-snug ff-elephent">
                 Featured
                 <span class="text-blue-600">Reads & Insights</span>
