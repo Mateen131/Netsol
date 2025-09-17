@@ -37,7 +37,7 @@
 </div>
 <div class="mb-56 pt-28">
 <form
-            class="flex bg-white shadow-md overflow-hidden w-[520px] rounded-md  h-14"
+            class="flex bg-white shadow-md overflow-hidden w-[520px] rounded-xl  h-14"
           >
             <input
               type="email"
@@ -46,7 +46,7 @@
             />
             <button
               type="submit"
-              class="bg-blue-600 text-white px-6 py-3 w-60 font-medium hover:bg-blue-700 transition-colors"
+              class="bg-blue-600 text-white px-6 py-3 w-60 font-medium text-lg hover:bg-blue-700 transition-colors"
             >
               Subscribe
             </button>
