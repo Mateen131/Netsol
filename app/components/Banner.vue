@@ -21,9 +21,9 @@
           </NuxtLink>
         </div>
 
-        <div class="flex justify-center md:justify-end">
+        <div class="flex justify-center md:justify-end mr-20">
 
-          <NuxtImg src="/images/Banner/netsol.png" alt="NETSOL" />
+          <NuxtImg src="/images/Banner/broker.png" alt="NETSOL" />
         </div>
 
       </div>
