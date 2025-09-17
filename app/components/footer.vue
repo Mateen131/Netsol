@@ -11,10 +11,12 @@
 
           
 
-            <div class="flex items-center space-x-2">
-              <NuxtImg src="/images/TechImages/logo.png" alt="Logo" width="50" height="50"></NuxtImg>
- 
-              <span class="font-bold text-xl text-white">NETSOL</span>
+            <div class="flex  justify-centre">
+
+                <NuxtImg src="/images/Techimages/logo.png" alt="Logo" width="40" height="40" ></NuxtImg>
+
+              
+              <span class="font-bold text-xl text-white ">NETSOL</span>
             </div>
             <ul class="space-y-2">
               <li><a href="#" class="hover:text-white">Why NETSOL</a></li>

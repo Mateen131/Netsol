@@ -32,11 +32,12 @@ const cards = [
 ]
 </script>
 <template>
+
     <section class="py-10">
         <div class="max-w-7xl ml-16 mr-16 px-8 ">
             <h2 class="text-3xl md:text-4xl font-bold text-gray-800 leading-snug ff-elephent">
                 Featured
-                <span class="text-blue-600">Reads & Insights</span>
+                <span class=" font-qualy text-blue-600">Reads & Insights</span>
             </h2>
 
             <div class="flex">

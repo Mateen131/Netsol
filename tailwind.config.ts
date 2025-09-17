@@ -1,6 +1,8 @@
-import type { Config } from 'tailwindcss'
+// tailwind.config.js
+import defaultTheme from 'tailwindcss/defaultTheme'
+import flowbite from 'flowbite/plugin'
 
-const config: Config = {
+export default {
   content: [
     "./components/**/*.{vue,js,ts}",
     "./layouts/**/*.vue",
@@ -10,22 +12,22 @@ const config: Config = {
     "./node_modules/flowbite/**/*.js"
   ],
   theme: {
-    extend: {},
-  },
-  plugins: [
-    require('flowbite/plugin')
-  ],
-}
-
-// tailwind.config.js
-const defaultTheme = require('tailwindcss/defaultTheme');
-
-module.exports = {
-  theme: {
     extend: {
       fontFamily: {
         qualy: ['Qualy', ...defaultTheme.fontFamily.sans],
       },
+      colors: {
+        customGray: '#f5f5f5',   // custom gray
+        PrimaryBlue: '#0056b3',  // custom blue
+        gradientStart: '#1e3a8a', // dark blue
+        gradientEnd: '#3b82f6',   // light blue
+      },
+       backgroundImage: {
+        'custom-linear': 'linear-gradient(89deg, #e2e4e400 13.16%, #f1f1f1 99.53%)',
+      },
     },
   },
-};
+  plugins: [flowbite],
+}
+
+
