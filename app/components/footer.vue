@@ -2,7 +2,7 @@
 <template>
   <!-- ===== Footer Section ===== -->
   <div>
-    <footer class="bg-gray-900 text-gray-300 mt-16">
+    <footer class="bg-gray-900 text-gray-300 mt-16 font-popin-regular">
       <div class="max-w-7xl mx-auto px-6 py-12 space-y-10">
         <!-- First Row -->
         <div class="grid grid-cols-1 md:grid-cols-4 gap-8">

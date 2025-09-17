@@ -35,9 +35,9 @@ const cards = [
 
     <section class="py-10">
         <div class="max-w-7xl ml-16 mr-16 px-8 ">
-            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 leading-snug ff-elephent">
+            <h2 class="text-2xl md:text-4xl  font-qualy text-gray-800 leading-snug ff-elephent">
                 Featured
-                <span class=" font-qualy text-blue-600">Reads & Insights</span>
+                <span class=" font-qualy text-blue-500">Reads & Insights</span>
             </h2>
 
             <div class="flex">
@@ -75,12 +75,12 @@ const cards = [
                     <!-- Content -->
                     <div class="p-4 md:p-5 flex-1 flex flex-col">
                         <!-- Tag -->
-                        <div v-if="c.tag" class="text-xs font-medium text-sky-600 uppercase tracking-wide mb-2">
+                        <div v-if="c.tag" class="text-xs font-medium font-poppins-semibold text-sky-600  tracking-wide mb-2">
                             {{ c.tag }}
                         </div>
 
                         <!-- Title -->
-                        <h3 class="text-base md:text-lg font-bold text-slate-900 leading-tight mb-2">
+                        <h3 class="text-base md:text-lg font-bold font-poppins-semibold text-slate-900 leading-tight mb-2">
                             {{ c.title }}
                         </h3>
 

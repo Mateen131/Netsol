@@ -20,7 +20,7 @@ function toggleDropdown(name) {
 
         <div class=" w-[70%] ml-32 pt-[6px] flex items-center ">
 
-          <nav class="w-[100%] mb-2 flex items-center space-x-8 ">
+          <nav class="w-[100%] mb-2 flex items-center space-x-7 ">
 
             <div>
               <button @click="toggleDropdown('platform')" class="flex text-[14px] text-gray-600">Platform
@@ -91,7 +91,7 @@ function toggleDropdown(name) {
 
 
             <div>
-              <button @click="toggleDropdown('About Us')" class="flex text-[14px] text-gray-500">About Us
+              <button @click="toggleDropdown('About Us')" class="flex text-[14px] text-gray-600">About Us
                 <ChevronDownIcon class="w-4 h-4 ml-1 pt-[5px] transition-transform"
                   :class="{ 'rotate-180': openDropdown === 'About Us' }" />
               </button>
