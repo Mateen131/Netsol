@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-customGray ml-[100px] mr-[84px] py-7 border-t border-blue-600">
+  <section class="bg-customGray ml-[100px] mr-[105px] py-7 border-t border-blue-600">
     <div class="w-full flex gap-12 items-center ">
       
       <!-- Left: Car Image -->
