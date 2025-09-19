@@ -25,9 +25,13 @@ export default {
        backgroundImage: {
         'custom-linear': 'linear-gradient(89deg, #e2e4e400 13.16%, #f1f1f1 99.53%)',
       },
+           container: {
+        center: true,
+        padding: "4px", // same as px-6
+ 
     },
   },
   plugins: [flowbite],
 }
-
+}
 

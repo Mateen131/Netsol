@@ -1,5 +1,5 @@
 <template>
-    <section class="relative py-16 sm:px-6 lg:py-24 lg:px-8 mt-0 bg-cover bg-center bg-no-repeat overflow-hidden h-auto"
+    <section class="relative py-16 sm:px-6 lg:py-24 lg:px-8 mt-0 bg-cover bg-center bg-no-repeat overflow-hidden h-auto ml-[10px]"
         style="background-image: url('/images/Slider/bg.png'); ">
         <div class="absolute inset-0 z-0 w-full">
             <div class="h-full w-full opacity-30 absolute inset-0"></div>

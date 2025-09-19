@@ -1,9 +1,9 @@
 <template>
-  <section class="w-full bg-white border-b ml-11">
+  <section class="w-full bg-white border-b ml-[-40px]">
     <div class="max-w-7xl mx-auto px-6">
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center py-12 md:py-16">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center py-12 md:py-16 ">
 
-        <div class="space-y-4">
+        <div class="space-y-4 ">
           <p class="text-sm tracking-wider text-gray-500 uppercase">Connect Sales</p>
 
           <h1 class="text-3xl md:text-4xl font-qualy leading-tight">
